@@ -78,6 +78,8 @@ function anyChar() {
     return mathNumber();
   }else if(charSetChooser == 3 && specialCheckBox.checked == true){
     return mathSP();
+  }else if(capitalCheckBox.checked == false && lowerCheckBox.checked == false && numberCheckBox.checked == false && specialCheckBox.checked == false){
+    return "";
   }
 }
 
